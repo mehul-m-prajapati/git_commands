@@ -1,5 +1,3 @@
-## git commands
-
 ### Stash
 ```
 $ git stash (Push changes on to stack)
