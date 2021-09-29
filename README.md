@@ -1,3 +1,27 @@
+
+### Config windows
+```
+git config --global diff.tool meld
+git config --global difftool.meld.path "C:\Program Files (x86)\Meld\Meld.exe"
+git config --global difftool.prompt false
+
+git config --global merge.tool meld
+git config --global mergetool.meld.path "C:\Program Files (x86)\Meld\Meld.exe"
+git config --global mergetool.prompt false
+(Update the file path for Meld.exe if yours is different.)
+```
+
+### Config Linux
+```
+git config --global diff.tool meld
+git config --global difftool.meld.path "/usr/bin/meld"
+git config --global difftool.prompt false
+
+git config --global merge.tool meld
+git config --global mergetool.meld.path "/usr/bin/meld"
+git config --global mergetool.prompt false
+```
+
 ### Stash
 ```
 $ git stash (Push changes on to stack)
