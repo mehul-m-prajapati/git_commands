@@ -28,6 +28,13 @@ $ git stash (Push changes on to stack)
 $ git stash apply (Pop changes from stack)
 ```
 
+### Revert
+```
+$ git revert <commit>
+To revert a merge:
+$ git revert -m 1 <hash>
+```
+
 ### Squash and rebase
 ```
 $ export EDITOR="$VISUAL"
